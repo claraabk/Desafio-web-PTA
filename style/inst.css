@@ -1,0 +1,130 @@
+body, ul, li, p {
+
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size:1em ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+}
+
+.navbar {
+
+    background: #d4a373;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.2vw;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.navbar p {
+
+    color: white;
+}
+
+.links {
+
+    display: flex;
+
+}
+
+.links li {
+
+    margin-left: 1.7vw;
+    flex-wrap: wrap;
+
+}
+
+.links li a {
+
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+ #title{
+
+    display: flex;
+    justify-content: center;
+    margin-top:5vw;
+    margin-bottom: 3vw;
+ }
+
+.conteudo {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.edbasica {
+
+    display: flex;
+    max-width: 55vw;
+    align-items: center;
+    margin: 2vw;
+    
+}
+
+.basica {
+
+    display: inline;
+}
+
+.edbasica img {
+
+    max-width: 10vw;
+    margin-right: 2vw;
+}
+
+.edsuperior {
+
+    display: flex;
+    max-width: 55vw;
+    align-items: center;
+}
+
+.edsuperior img {
+
+    max-width: 10vw;
+    margin-right: 2vw;
+}
+
+#title2{
+
+    display: flex;
+    justify-content: center;
+    margin-top:7vw;
+    margin-bottom: 3vw;
+ }
+
+ #ingles {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 5vw;
+    margin-bottom: 3vw;
+ }
+
+#linha {
+
+    max-width: 55vw;
+    margin-bottom: 2vw;
+}
+
+#nivel {
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vw;
+}
+
+
+    

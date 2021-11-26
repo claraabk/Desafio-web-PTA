@@ -1,0 +1,119 @@
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+body {
+
+    background-image: linear-gradient(#d4a373,#faedcd);
+}
+
+body, ul, li, p {
+
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size:1em ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+}
+
+.navbar {
+
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.2vw;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.links {
+
+    display: flex;
+
+}
+
+.links li {
+
+    margin-left: 1.7vw;
+    flex-wrap: wrap;
+}
+
+.links li a {
+
+    display: block;
+    padding: 10px;
+
+}
+
+.mainarea {
+
+    background: white;
+    margin-top: 3.6vw;
+    margin-left:20%;
+    margin-right: 20%;
+    margin-bottom: 2vw;
+    border-radius: 2vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: 1 1;
+ 
+}
+
+@media screen and ( max-width:600px) {
+
+    .mainarea {
+
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+    
+}
+
+.mainarea img {
+
+
+    max-width:22.7vw;
+    padding:2vw;
+    padding-right: 0%;
+}
+
+.text {
+
+    display: inline;
+    margin-left:2vw;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: space-evenly; 
+
+}
+
+.apresentacao {
+
+    margin:0 auto;
+}
+
+#name {
+
+    color:#936639;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.logos {
+
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+}
+
+.logos img {
+
+    max-width:3vw;
+}
+
